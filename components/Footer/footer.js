@@ -32,7 +32,7 @@ export default function Footer() {
     return (
         <FooterCont>
             <Logo>
-                <img src="./favicon.jpeg" style={{ width: "10%" }} />
+                <img src="./rainy.gif" style={{ width: "25%" }} />
             </Logo>
 
             <TextCont>
@@ -57,7 +57,9 @@ export default function Footer() {
             <TextCont>
                 <BodyText>
                     <b>Contact Us</b> <br/>
-                    Phone 604.953.3333
+                    Call us at 604.953.3333 <br/>
+                    400-287 Nelson's Ct., <br/>
+                    New Westminster, BC V3L0E7
                 </BodyText>
             </TextCont>
 

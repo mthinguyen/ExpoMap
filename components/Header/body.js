@@ -5,6 +5,7 @@ const BodyText = styled.p`
 color: #01355F;
 font-family: Georgia;
 font-size: 14pt;
+line-height: 140%;
 `
 const TextCont = styled.div`
 padding-left: 3rem;
@@ -12,6 +13,7 @@ padding-right: 3rem;
 padding-bottom: 4rem;
 display: flex;
 align-items: flex-start;
+
 `
 
 export default function InfoText() {
