@@ -2,10 +2,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: flex-start;
-
+  align-items: center;
   min-height: 100vh;
-  padding: 6rem ;
+  padding: 0rem;
+  background-color: rgb(203, 232, 232);
 }
 
 .description {
@@ -279,9 +279,11 @@
 }
 
 .map {
-  width: 100%;
+  width: 85%;
   height: 40rem;
   padding: 6rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .header {
