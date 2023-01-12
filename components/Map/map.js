@@ -95,7 +95,14 @@ export default function Map() {
         [49.254229810707734, -122.91920203229402],
     ]
 
+    // Custom Icon
+    var cuteIcon = L.icon({
+        iconUrl: './pin.svg',
+        iconSize: [28, 65],
+        iconAnchor: [12,49],
+    });
 
+    // L.marker([50.505, 30.57], {icon: cuteIcon}).addTo(Map);
 
     return (
         <MapContainer className={style.map} center={edmonds} zoom={14} scrollWheelZoom={true}>
@@ -105,145 +112,145 @@ export default function Map() {
             />
 
             {/* Markers */}
-            <Marker position={waterfront}>
+            <Marker position={waterfront} icon={cuteIcon}>
                 <Popup>
                     Skytrain: <br />Waterfront Station
                 </Popup>
             </Marker>
 
-            <Marker position={burrad}>
+            <Marker position={burrad} icon={cuteIcon}>
                 <Popup>
                     Skytrain: <br />Burrad Station
                 </Popup>
             </Marker>
 
-            <Marker position={graville}>
+            <Marker position={graville} icon={cuteIcon}>
                 <Popup>
                     Skytrain: <br />Granville Station
                 </Popup>
             </Marker>
 
-            <Marker position={chinatown}>
+            <Marker position={chinatown} icon={cuteIcon}>
                 <Popup>
                     Skytrain: <br />Stadium - Chinatown Station
                 </Popup>
             </Marker>
 
-            <Marker position={scienceworld}>
+            <Marker position={scienceworld} icon={cuteIcon}>
                 <Popup>
                     Skytrain: <br />Main Street - Science World Station
                 </Popup>
             </Marker>
 
-            <Marker position={commercial}>
+            <Marker position={commercial} icon={cuteIcon}>
                 <Popup>
                     Skytrain: <br />Commercial - Broadway Station
                 </Popup>
             </Marker>
 
-            <Marker position={nanaimo}>
+            <Marker position={nanaimo} icon={cuteIcon}>
                 <Popup>
                     Skytrain: <br />Nanaimo Station
                 </Popup>
             </Marker>
 
-            <Marker position={twentynineave}>
+            <Marker position={twentynineave} icon={cuteIcon}>
                 <Popup>
                     Skytrain: <br />29th Ave Station
                 </Popup>
             </Marker>
 
-            <Marker position={joyce}>
+            <Marker position={joyce} icon={cuteIcon}>
                 <Popup>
                     Skytrain: <br />Joyce - Collingwood Station
                 </Popup>
             </Marker>
 
-            <Marker position={patterson}>
+            <Marker position={patterson} icon={cuteIcon}>
                 <Popup>
                     Skytrain: <br />Patterson Station
                 </Popup>
             </Marker>
 
-            <Marker position={metrotown}>
+            <Marker position={metrotown} icon={cuteIcon}>
                 <Popup>
                     Skytrain: <br />Metrotown Station
                 </Popup>
             </Marker>
 
-            <Marker position={royaloak}>
+            <Marker position={royaloak} icon={cuteIcon}>
                 <Popup>
                     Skytrain: <br />Royal Oak Station
                 </Popup>
             </Marker>
 
-            <Marker position={edmonds}>
+            <Marker position={edmonds} icon={cuteIcon}>
                 <Popup>
                     Skytrain: <br />Edmonds Station
                 </Popup>
             </Marker>
 
-            <Marker position={twentytwoave}>
+            <Marker position={twentytwoave} icon={cuteIcon}>
                 <Popup>
                     Skytrain: <br />22nd Ave Station
                 </Popup>
             </Marker>
 
-            <Marker position={newwest}>
+            <Marker position={newwest} icon={cuteIcon}>
                 <Popup>
                     Skytrain: <br />New Westminster Station
                 </Popup>
             </Marker>
 
-            <Marker position={columbia}>
+            <Marker position={columbia} icon={cuteIcon}>
                 <Popup>
                     Skytrain: <br />Columbia Station
                 </Popup>
             </Marker>
 
-            <Marker position={scottroad}>
+            <Marker position={scottroad} icon={cuteIcon}>
                 <Popup>
                     Skytrain: <br />Scott Road Station
                 </Popup>
             </Marker>
 
-            <Marker position={gateway}>
+            <Marker position={gateway} icon={cuteIcon}>
                 <Popup>
                     Skytrain: <br />Gateway Station
                 </Popup>
             </Marker>
 
-            <Marker position={central}>
+            <Marker position={central} icon={cuteIcon}>
                 <Popup>
                     Skytrain: <br />Surrey Cental Station
                 </Popup>
             </Marker>
 
-            <Marker position={kinggeorge}>
+            <Marker position={kinggeorge} icon={cuteIcon}>
                 <Popup>
                     Skytrain: <br />King George Station
                 </Popup>
             </Marker>
 
-            <Marker position={sapperton}>
+            <Marker position={sapperton} icon={cuteIcon}>
                 <Popup>
                     Skytrain: <br />Sapperton Station
                 </Popup>
             </Marker>
 
-            <Marker position={braid}>
+            <Marker position={braid} icon={cuteIcon}>
                 <Popup>
                     Skytrain: <br />Braid Station
                 </Popup>
             </Marker>
 
-            <Marker position={loughheed}>
+            <Marker position={loughheed} icon={cuteIcon}>
                 <Popup>
                     Skytrain: <br />Lougheed Center Station
                 </Popup>
             </Marker>
 
-            <Marker position={productionway}>
+            <Marker position={productionway} icon={cuteIcon}>
                 <Popup>
                     Skytrain: <br />Production Way - University Station
                 </Popup>
